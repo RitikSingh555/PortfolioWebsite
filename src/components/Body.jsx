@@ -1,7 +1,7 @@
 import React from 'react';
 import ProfilePhoto from '../assets/Selfie.jpeg';
 import LinkedInPhoto from '../assets/LinkedIn icon.png';
-import InstagramPhoto from '../assets/Instagram Icon.png';
+import { InstagramPhoto } from '../utils/socialLinks';
 import GithubPhoto from '../assets/Github icon.png';
 
 const Body = () => {
@@ -16,7 +16,8 @@ const Body = () => {
     },
     instagram: {
       url: "https://www.instagram.com/rit__ikofficial/",
-      icon: InstagramPhoto
+      //icon: InstagramPhoto
+      icon: 'https://upload.wikimedia.org/wikipedia/commons/2/28/Instagram_logo.png'
     }
   };
 
