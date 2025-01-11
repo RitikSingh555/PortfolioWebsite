@@ -155,7 +155,7 @@ const Achievements = () => {
   );
 };
 
-// Existing SkillCard and Skills components remain the same...
+// Updated SkillCard and Skills components with your new skills
 const SkillCard = ({ category, skills }) => (
   <div className="bg-gray-900 rounded-lg p-6 border border-gray-800 transform hover:scale-[1.01] transition-transform">
     <h3 className="text-xl font-semibold text-white mb-4">{category}</h3>
@@ -176,31 +176,35 @@ const Skills = () => {
   const skillsets = [
     {
       category: "Programming Languages",
-      skills: ["JavaScript", "TypeScript", "Python"]
+      skills: ["Java", "Python", "JavaScript"]
     },
     {
       category: "Front-end Technologies",
-      skills: ["React", "Next.js", "Material UI", "HTML", "CSS"]
+      skills: ["React", "Redux", "HTML", "CSS", "Tailwind CSS"]
     },
     {
       category: "Back-end Technologies",
-      skills: ["Node.js", "Express.js", "Next.js API Routes"]
+      skills: ["Spring Boot", "REST APIs", "Multithreading", "Thread Pool"]
     },
     {
       category: "Databases",
-      skills: ["MongoDB", "DynamoDB"]
+      skills: ["MySQL", "PostgreSQL", "ClickHouse"]
     },
     {
-      category: "Cloud Services",
-      skills: ["AWS (Lambda, API Gateway, DynamoDB)"]
+      category: "Messaging Systems",
+      skills: ["Kafka", "MQTT"]
     },
     {
-      category: "Developer Tools",
-      skills: ["Git", "Postman", "VS Code"]
+      category: "Cloud and DevOps",
+      skills: ["AWS (EC2)", "Nginx", "Docker"]
     },
     {
-      category: "Soft Skills",
-      skills: ["Collaboration", "Problem-Solving", "Communication"]
+      category: "Version Control and CI/CD",
+      skills: ["Git", "GitHub Actions"]
+    },
+    {
+      category: "Development Tools",
+      skills: ["VS Code", "Eclipse", "IntelliJ IDEA", "PyCharm", "Postman", "Jupyter Notebook"]
     }
   ];
 
