@@ -30,7 +30,7 @@ const ExperienceCard = ({ role, company, location, duration, points }) => (
 const Experience = () => {
   const experiences = [
     {
-      role: "PGET",
+      role: "Software Engineer",
       company: "HCL Software",
       location: "Bangalore, India",
       duration: "Nov 2023 – Present",
