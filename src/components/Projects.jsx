@@ -32,7 +32,7 @@ const projects = [
     //image: "/api/placeholder/800/600",
     image: Portfollio,
     github: "https://github.com/RitikSingh555/portfolio",
-    demo: "https://portfolio.vercel.app/",
+    demo: "https://portfolio-website-bi0xzzh2t-ritik-singhs-projects-bb671071.vercel.app/",
     keyFeatures: [
       "Showcases my projects and achievements",
       "Responsive and modern design",
