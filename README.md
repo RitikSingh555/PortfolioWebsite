@@ -35,4 +35,4 @@ A sleek and modern portfolio showcasing my skills, projects, and achievements. T
 
 ## Deployed Link
 
-1. https://portfolio-website-bi0xzzh2t-ritik-singhs-projects-bb671071.vercel.app/
+1. https://portfolio-website-bi0xzzh2t-ritik-singhs-projects-bb671071.vercel.app/](https://portfolio-website-topaz-psi-31.vercel.app/
