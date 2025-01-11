@@ -32,3 +32,7 @@ A sleek and modern portfolio showcasing my skills, projects, and achievements. T
    ```bash
    git clone https://github.com/RitikSingh555/portfolio.git
    cd portfolio
+
+## Deployed Link
+
+1. https://portfolio-website-bi0xzzh2t-ritik-singhs-projects-bb671071.vercel.app/
