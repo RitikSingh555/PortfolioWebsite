@@ -31,7 +31,7 @@ const projects = [
     mainTech: ["React", "TailwindCSS", "TypeScript"],
     //image: "/api/placeholder/800/600",
     image: Portfollio,
-    github: "https://github.com/RitikSingh555/portfolio",
+    github: "https://github.com/RitikSingh555/PortfolioWebsite",
     demo: "https://portfolio-website-bi0xzzh2t-ritik-singhs-projects-bb671071.vercel.app/",
     keyFeatures: [
       "Showcases my projects and achievements",
