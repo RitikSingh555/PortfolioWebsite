@@ -1,7 +1,7 @@
 import React from 'react';
 import ProfilePhoto from '../assets/Selfie.jpeg';
 import LinkedInPhoto from '../assets/LinkedIn icon.png';
-import { InstagramPhoto } from '../utils/socialLinks';
+//import { InstagramPhoto } from '../utils/socialLinks';
 import GithubPhoto from '../assets/Github icon.png';
 
 const Body = () => {
