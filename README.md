@@ -33,6 +33,6 @@ A sleek and modern portfolio showcasing my skills, projects, and achievements. T
    git clone https://github.com/RitikSingh555/portfolio.git
    cd portfolio
 
-## Deployed Link
+## 🌐 Live Demo
 
-1. https://portfolio-website-topaz-psi-31.vercel.app/
+👉 https://ritik-singh-portfolio-website.vercel.app/
