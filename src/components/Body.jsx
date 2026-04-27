@@ -22,7 +22,8 @@ const Body = () => {
   };
 
   const handleResumeClick = () => {
-    window.open('https://drive.google.com/file/d/1aAU-c9fECl9dNP4Obxspdh25XrM5_NTL/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1zA8ZfrlVTu0ubYYZX0BxMSKMX8kxg9is/view?usp=sharing', '_blank');
+    
   };
 
   return (

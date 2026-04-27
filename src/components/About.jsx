@@ -41,7 +41,7 @@ const About = () => {
               {/* Technologies Mastered */}
               <div className="p-6 rounded-xl bg-gray-900/50 hover:bg-gray-900 transition-colors duration-300 border border-gray-800">
                 <h3 className="text-4xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
-                  10+
+                  5+
                 </h3>
                 <p className="text-gray-400">Technologies Mastered</p>
               </div>

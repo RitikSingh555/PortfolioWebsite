@@ -28,36 +28,65 @@ const ExperienceCard = ({ role, company, location, duration, points }) => (
 );
 
 const Experience = () => {
+  // const experiences = [
+  //   {
+  //     role: "Software Engineer 2",
+  //     company: "HCL Software",
+  //     location: "Bangalore, India",
+  //     duration: "Nov 2023 – Present",
+  //     points: [
+  //       "Developed frontend for Android STB using React, Redux, Tailwind; created dashboards, device search, and role-based action pages.",
+  //       "Built backend REST API with Spring Boot to handle user requests and communicate with STB devices.",
+  //       "Implemented multithreading for handling concurrent requests, ensuring scalability and performance.",
+  //       "Utilized MQTT for efficient communication with STB devices, sending commands and receiving statuses.",
+  //       "Stored and retrieved large volumes of data in ClickHouse for real-time analytics.",
+  //       "Configured and deployed applications on AWS EC2 instances",
+  //       "Set up Nginx as a reverse proxy and web server to serve the React frontend and Spring Boot backend applications."
+  //     ]
+  //   },
+  //   {
+  //     role: "Software Development Engineer",
+  //     company: "VIA.COM (EBIX TRAVELS PRIVATE LIMITED)",
+  //     location: "Noida, India",
+  //     duration: "Jun 2021 – Oct 2021",
+  //     points: [
+  //       "Developed and maintained RESTful APIs using Spring Boot for booking and payment processes.",
+  //       "Integrated third-party APIs for real-time flight information.",
+  //       "Enhanced the booking platform's UI using React, adding components for better user experience.",
+  //       "Collaborated with the team to ensure seamless integration of backend services with the frontend application.",
+  //       "Delivered features and enhancements within the set timelines, contributing to overall project success."
+  //     ]
+  //   }
+  // ];
+
   const experiences = [
-    {
-      role: "Software Engineer",
-      company: "HCL Software",
-      location: "Bangalore, India",
-      duration: "Nov 2023 – Present",
-      points: [
-        "Developed frontend for Android STB using React, Redux, Tailwind; created dashboards, device search, and role-based action pages.",
-        "Built backend REST API with Spring Boot to handle user requests and communicate with STB devices.",
-        "Implemented multithreading for handling concurrent requests, ensuring scalability and performance.",
-        "Utilized MQTT for efficient communication with STB devices, sending commands and receiving statuses.",
-        "Stored and retrieved large volumes of data in ClickHouse for real-time analytics.",
-        "Configured and deployed applications on AWS EC2 instances",
-        "Set up Nginx as a reverse proxy and web server to serve the React frontend and Spring Boot backend applications."
-      ]
-    },
-    {
-      role: "Software Development Engineer",
-      company: "VIA.COM (EBIX TRAVELS PRIVATE LIMITED)",
-      location: "Noida, India",
-      duration: "Jun 2021 – Oct 2021",
-      points: [
-        "Developed and maintained RESTful APIs using Spring Boot for booking and payment processes.",
-        "Integrated third-party APIs for real-time flight information.",
-        "Enhanced the booking platform's UI using React, adding components for better user experience.",
-        "Collaborated with the team to ensure seamless integration of backend services with the frontend application.",
-        "Delivered features and enhancements within the set timelines, contributing to overall project success."
-      ]
-    }
-  ];
+  {
+    role: "Software Engineer 2",
+    company: "HCL Software",
+    location: "Bangalore, India",
+    duration: "Nov 2023 – Present",
+    points: [
+      "Built enterprise React / Redux / Material UI infrastructure monitoring platform for 200+ servers; applied React.memo, useMemo, and debounced renders to reduce unnecessary re-renders by ~60%, achieving smooth 60fps rendering on live dashboards.",
+      "Developed OTEL (OpenTelemetry) onboarding module for standardized telemetry collection; integrated react-window virtualization on telemetry dashboards — reducing DOM nodes by ~80% and eliminating frame drops on high-volume data views.",
+      "Designed and implemented Role-Based Access Control (RBAC) interface with granular permission controls and integrated REST APIs for device management, monitoring data retrieval, and user authentication; achieved 35% faster API response times using Redis caching and connection pooling.",
+      "Architected an AI/ML-powered Event Correlation system with Apache Kafka connecting 4 sequential modules: Data Enrichment → Normalisation → Noise Reduction → Deduplication; applied Isolation Forest, DBSCAN, and Random Forest models for anomaly detection and event pattern classification.",
+      "Engineered Device Onboarding module with SNMP-based vCenter integration, automated installation workflows, and connectivity validation across 200+ servers; reduced initial bundle size by 40% via lazy loading and code splitting.",
+      "Maintained 85%+ Jest test coverage across critical UI components and API layers; collaborated with designers, QA, and DevOps in Agile sprints, delivering all modules on schedule."
+    ]
+  },
+  {
+    role: "Software Development Engineer",
+    company: "VIA.COM (EBIX TRAVELS PRIVATE LIMITED)",
+    location: "Noida, India",
+    duration: "Jun 2021 – Oct 2021",
+    points: [
+      "Developed and maintained Spring Boot REST APIs for flight booking and payment processing; used Hibernate ORM for database interactions and applied connection pooling and Redis caching achieving sub-200ms API response times under concurrent load.",
+      "Integrated third-party APIs for real-time flight availability data with fallback and retry strategies to ensure system reliability during peak traffic.",
+      "Built and enhanced React UI components for the booking platform — developed reusable form elements, seat selection flows, and booking confirmation views; applied debouncing and smart Redux state management to minimize redundant API calls.",
+      "Collaborated with backend and frontend teams to ensure seamless API-UI integration; delivered features within sprint timelines, contributing to client satisfaction and on-time releases."
+    ]
+  }
+];
 
   return (
     <div className="py-16 bg-black">
@@ -104,7 +133,7 @@ const Education = () => {
       institution: "Netaji Shubhas University of Technology",
       location: "Delhi, India",
       duration: "Oct 2021 – July 2023",
-      cgpa: "7.3"
+      cgpa: "7.30"
     },
     {
       degree: "B.Tech in Computer Science and Engineering",

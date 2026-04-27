@@ -40,10 +40,10 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} Ritik. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://www.facebook.com/ritik.singh.52035/" className="text-gray-400 hover:text-white">
               <FaFacebook />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://x.com/_ritik__Singh" className="text-gray-400 hover:text-white">
               <FaTwitter />
             </a>
             <a href="https://www.linkedin.com/in/ritik-singh-9471ab14b/" className="text-gray-400 hover:text-white">
