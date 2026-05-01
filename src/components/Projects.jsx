@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Github, ExternalLink, ChevronDown, ChevronUp, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Github,  ChevronDown, ChevronUp, ChevronLeft, ChevronRight } from 'lucide-react';
+// import { ExternalLink } from 'lucide-react';
 import HomePricePrediction from '../assets/HomePricePrediction.png';
 import QuizApp from '../assets/QuizApp.png';
 import Portfollio from '../assets/Portfollio.png';
