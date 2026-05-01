@@ -121,6 +121,7 @@ const ProjectCard = ({ project }) => {
             <Github size={18} />
             GitHub
           </a>
+                      { !project.name.includes("QuizApp") && (
           <a 
             href={project.demo} 
             className="flex items-center gap-2 bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-500 hover:to-blue-600 text-white px-4 py-2 rounded-full transition-colors"
@@ -128,8 +129,9 @@ const ProjectCard = ({ project }) => {
             rel="noopener noreferrer"
           >
             <ExternalLink size={18} />
-            Live Demo
+            <span>Live Demo</span>
           </a>
+           ) }
         </div>
 
         <button
