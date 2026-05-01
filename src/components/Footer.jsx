@@ -13,23 +13,6 @@ const Footer = () => {
               software development.
             </p>
           </div>
-          <div className="flex-1 w-full">
-            <form className="flex items-center justify-center">
-              <input
-                type="email"
-                placeholder="Your email"
-                className="w-full p-2 rounded-l-lg bg-gray-800 border border-gray-600 
-                focus:outline-none focus:border-green-400"
-              />
-              <button
-                type="submit"
-                className="bg-gradient-to-r from-green-400 to-blue-500 text-white px-4 
-                py-2 rounded-r-lg"
-              >
-                Subscribe
-              </button>
-            </form>
-          </div>
         </div>
 
         <div
@@ -54,10 +37,10 @@ const Footer = () => {
             </a>
           </div>
           <div className="flex space-x-4">
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="/privacy" className="text-gray-400 hover:text-white">
               Privacy
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="/terms" className="text-gray-400 hover:text-white">
               Terms of Service
             </a>
           </div>
